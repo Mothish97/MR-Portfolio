@@ -15,7 +15,7 @@ const Education = () => {
 					<div className="education-body">
 						<div className="education">
 							<img
-								src="./UMD.jpg"
+								src="https://drive.google.com/thumbnail?id=1XvMBc5D7H1r6PWJcWpYedncA8znuqFZU"
 								alt="UMD "
 								className="education-image"
 							/>
@@ -28,7 +28,7 @@ const Education = () => {
 
 						<div className="education">
 							<img
-								src="./VIT.png"
+								src="https://drive.google.com/thumbnail?id=1m_jggNGGbTsRwplWcDVW0aRU7R4EMoaY"
 								alt="VIT"
 								className="education-image"
 							/>

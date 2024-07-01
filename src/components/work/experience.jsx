@@ -8,7 +8,7 @@ const Experience = () => {
 
 <div class="company-container">
         <div class="company-inner">
-            <img src="./CT.png" alt="Company Logo" class="company-logo"/>
+            <img src="https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9" alt="Company Logo" class="company-logo"/>
             <div class="company-details">
                 <div class="company-name">Clothing Tech LLC</div>
                 <div class="company-dates">January 2023 - Present</div>
@@ -23,7 +23,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
     </div>
 	<div class="company-container">
         <div class="company-inner">
-            <img src="./kick.jpg" alt="Company Logo" class="company-logo"/>
+            <img src="https://drive.google.com/thumbnail?id=1SiCISFEV7cYwMCGqMTV8kRP9ed1_dYJO" alt="Company Logo" class="company-logo"/>
             <div class="company-details">
                 <div class="company-name">Kick Robotics</div>
                 <div class="company-dates">June 2022 - December 2022</div>
@@ -38,7 +38,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
 
 	<div class="company-container">
         <div class="company-inner">
-            <img src="./wipro.png" alt="Company Logo" class="company-logo"/>
+            <img src="https://drive.google.com/thumbnail?id=1_yoR8N573sJGyrQFVnK5SqUSCE6HcaTz" alt="Company Logo" class="company-logo"/>
             <div class="company-details">
                 <div class="company-name">Wipro Technologies</div>
                 <div class="company-dates">June 2019 - August 2021</div>
@@ -52,7 +52,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
     </div>
     <div class="company-container">
         <div class="company-inner">
-            <img src="./UMD.jpg" alt="Company Logo" class="company-logo"/>
+            <img src="https://drive.google.com/thumbnail?id=1XvMBc5D7H1r6PWJcWpYedncA8znuqFZU" alt="Company Logo" class="company-logo"/>
             <div class="company-details">
                 <div class="company-name">University of Maryland</div>
                 <div class="company-dates">June 2018 - July 2018</div>
@@ -66,7 +66,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
     </div>
     <div class="company-container">
         <div class="company-inner">
-            <img src="./kerns.png" alt="Company Logo" class="company-logo"/>
+            <img src="https://drive.google.com/thumbnail?id=1oKx8bhK4WK89-_0coc9rjDUcfBQnWnJC" alt="Company Logo" class="company-logo"/>
             <div class="company-details">
                 <div class="company-name">Kerns Aero Products</div>
                 <div class="company-dates">June 2018 - July 2018</div>

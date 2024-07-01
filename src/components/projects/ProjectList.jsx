@@ -11,7 +11,7 @@ const ProjectList = () => {
 		<div class="container">
         <div class="project project1">
             <div class="project-video project-video1">
-                <iframe src="./lineRobot.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1WtWShO1NeaD53S-LENwt7Gw__AAdFosj/preview" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="project-info project-info1">
                 <h2>Autonomous Navigating Robot.</h2>
@@ -21,7 +21,7 @@ Introducing our innovative robot car model for robotics portfolios. This model f
         </div>
         <div class="project projec6">
             <div class="project-video project-video6">
-                <iframe src="./handSignal.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1cN1UAXYZIkdgnlIXXkYFQSQEDN6LP3za/preview" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="project-info project-info2">
                 <h2>Signal controlled robot simulation</h2>
@@ -30,7 +30,7 @@ Introducing our innovative robot car model for robotics portfolios. This model f
         </div>
         <div class="project project3">
             <div class="project-video project-video3">
-                <iframe src="./flight.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1PzbyifDGaMSTMS2l-YcdDeGfqp68m-Lo/preview" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="project-info project-info2">
                 <h2>Flight Simulation</h2>
@@ -39,7 +39,7 @@ Introducing our innovative robot car model for robotics portfolios. This model f
         </div>
         <div class="project project4">
             <div class="project-video project-video4">
-                <iframe src="./rrt.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1bsnueCb-e7-uJoS939Ddtx3d3yKTA2kv/preview" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="project-info project-info4">
                 <h2>Improved RRT-Connect and GT-RRT</h2>
@@ -48,7 +48,7 @@ Introducing our innovative robot car model for robotics portfolios. This model f
         </div>
         <div class="project project7">
             <div class="project-video project-video7">
-                <iframe src="./astar.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1EqY3iJ3LGI6nAJf6pvTawQsMmXJSbVr_/preview" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="project-info project-info4">
                 <h2>A-star Search Algorithm Path Planning</h2>
@@ -57,7 +57,7 @@ Introducing our innovative robot car model for robotics portfolios. This model f
         </div>
         <div class="project project2">
             <div class="project-video project-video2">
-            <img src="./haptap.png" class="imgProj" alt="UMD"/>
+            <img src="https://drive.google.com/thumbnail?id=1AEgQ01Dk1F9WAXJwZy45iVf1cbOhjtdL" class="imgProj" alt="UMD"/>
             </div>
             <div class="project-info project-info2">
                 <h2> HAPTAP (Best Project of the Year 2018 VIT)</h2>
@@ -66,7 +66,7 @@ Introducing our innovative robot car model for robotics portfolios. This model f
         </div>
         <div class="project project5">
             <div class="project-video project-video5">
-                <iframe src="./handle.mp4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1PtTmfx_BdYEpET9O61RpVFmPqJNCjbkX/preview" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="project-info project-info2">
                 <h2> Smart Ergonomic Motorcycle Handlebars to Reduce Musculoskeletal Disorder</h2>

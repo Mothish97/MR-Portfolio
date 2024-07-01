@@ -16,7 +16,7 @@ const Works = () => {
 					<Link to="https://www.clothingtech.com/">
 						<div className="work">
 							<img
-								src="./CT.png"
+								src="https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9"
 								alt="CT"
 								className="work-image"
 							/>
@@ -32,7 +32,7 @@ const Works = () => {
 					<Link to="https://kickrobotics.com/">
 						<div className="work">
 							<img
-								src="./kick.jpg"
+								src="https://drive.google.com/thumbnail?id=1SiCISFEV7cYwMCGqMTV8kRP9ed1_dYJO"
 								alt="kick"
 								className="work-image"
 							/>
@@ -46,7 +46,7 @@ const Works = () => {
 					<Link to="https://www.wipro.com/">
 						<div className="work">
 							<img
-								src="./wipro.png"
+								src="https://drive.google.com/thumbnail?id=1_yoR8N573sJGyrQFVnK5SqUSCE6HcaTz"
 								alt="wipro"
 								className="work-image"
 							/>
@@ -60,7 +60,7 @@ const Works = () => {
 					<Link to="https://robotics.umd.edu/">
 						<div className="work">
 							<img
-								src="./UMD.jpg"
+								src="https://drive.google.com/thumbnail?id=1XvMBc5D7H1r6PWJcWpYedncA8znuqFZU"
 								alt="UMD"
 								className="work-image"
 							/>
@@ -74,7 +74,7 @@ const Works = () => {
 					<Link to="https://www.kernsmfg.com/">
 						<div className="work">
 							<img
-								src="./kerns.png"
+								src="https://drive.google.com/thumbnail?id=1oKx8bhK4WK89-_0coc9rjDUcfBQnWnJC"
 								alt="kerns"
 								className="work-image"
 							/>

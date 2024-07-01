@@ -40,8 +40,8 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
-											alt="about"
+											src="https://drive.google.com/thumbnail?id=1s2TaGx_p6xmRes1Gp_v4q4AcU26UsS8J"
+											alt="about.jpg"
 											className="about-image"
 										/>
 									</div>

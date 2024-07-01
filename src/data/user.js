@@ -3,7 +3,7 @@ const INFO = {
 		title: "Portfolio by MR",
 		name: "Mothish Raj V K",
 		email: "mothish.2997@gmail.com",
-		logo: "../logo.png",
+		logo: "https://drive.google.com/thumbnail?id=1f5fCEbu0hb0naFs_mm4rzOqVpRa9zmmd",
 	},
 
 	socials: {
