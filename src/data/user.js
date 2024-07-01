@@ -8,8 +8,8 @@ const INFO = {
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/Mothish97",
+		linkedin: "https://linkedin.com/in/mothish-raj/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "Full-stack developer, Software engineer, Robotics & AI engineer and Fitness enthusiast ",
 		description:
-			" I am a software engineer who have worked on various frameworks including robotics and artificial intelligence. I would consider myself versatile and adaptive to any projects or tasks that has been given to me and have perfomed with my best knowledge.",
+			" I am a software engineer who has worked on various frameworks including robotics and artificial intelligence. I would consider myself versatile and adaptive to any projects or tasks that has been given to me and have perfomed with my best knowledge.",
 	},
 
 	projects: [

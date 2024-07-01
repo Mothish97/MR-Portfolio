@@ -113,7 +113,7 @@ const Homepage = () => {
 							</a>
 							
 							<a
-								href={INFO.socials.github}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
