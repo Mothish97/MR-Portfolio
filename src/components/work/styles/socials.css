@@ -1,0 +1,68 @@
+@import "../../../data/styles.css";
+.social,
+.email-wrapper {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.social a,
+.email-wrapper a {
+	text-decoration: none;
+}
+
+.social-icon {
+	font-size: 15px;
+	color: var(--secondary-color);
+}
+
+.social-text {
+	color: var(--secondary-color);
+	padding-left: 30px;
+	margin-top: -20px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.email::before {
+	content: "";
+	display: block;
+	border-top: 3px solid #f4f4f5;
+}
+.justifyContent{
+	text-align:justify;
+}
+.company-container {
+	font-family: Arial, sans-serif;
+	margin-top: 5%;
+	padding: 0;
+}
+.company-inner {
+	max-width: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+.company-logo {
+	width: 100px;
+	height: auto;
+	margin-right: 20px;
+}
+.company-details {
+	flex: 1;
+}
+.company-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.company-dates {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.company-additional {
+	font-size: 16px;
+}
