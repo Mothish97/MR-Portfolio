@@ -10,30 +10,30 @@ const images = [
 ];
 
 const images1 = [
-	'sprnt82-1.png',
-	'CT.png',
+	'https://drive.google.com/thumbnail?id=11kg6z14Z0VeReL8XS44VTN6Ce6xvhnya',
+	'https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9',
   ];
 
 const images2 = [
-	'sprnt82-1.png',
-	'CT.png',
+	'https://drive.google.com/thumbnail?id=11kg6z14Z0VeReL8XS44VTN6Ce6xvhnya',
+	'https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9',
   ];
 
 const images3 = [
-'sprnt80-1.png',
-'CT.png',
+'https://drive.google.com/thumbnail?id=1CTYlBGWmSCA2Tuj5FvQn6vGrz9uL-A2F',
+'https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9',
 ];
 const images4 = [
-'sprnt77-1.jpg',
-'sprnt77-2.jpg',
+'https://drive.google.com/thumbnail?id=1RaQrMf2Fvbh0EMpLLdXTnWles5UbjNKB',
+'https://drive.google.com/thumbnail?id=1aRT__OMcVSEOpDfVRskIM3X1XmKCZ72Q',
 ];
 const images5 = [
-	'haptap.png',
-	'vitlogo.png',
+	'https://drive.google.com/thumbnail?id=1AEgQ01Dk1F9WAXJwZy45iVf1cbOhjtdL',
+	'https://drive.google.com/thumbnail?id=156XWnBE6kEFqOtUhnaUeiWNROe5fCavg',
 	];
 const images6 = [
-	'moto.png',
-	'moto2.png',
+	'https://drive.google.com/thumbnail?id=1xFeL6EGOxHDPqyfUhlNnGZjAF457Sp1p',
+	'https://drive.google.com/thumbnail?id=1tWZAqlrV4iSKoPZIP1nGpjZhzsgsy9G5',
 	];
 const images7 = [
 	'kick.jpg',
