@@ -26,7 +26,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Projects that I am proud about.
+							Projects that I am proud of.
 						</div>
 
 						<div className="subtitle projects-subtitle">
@@ -35,7 +35,7 @@ const Projects = () => {
 							these projects are open-source and available for
 							others to explore and contribute to. If you're
 							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
+							please feel free to check out the code from git and suggest
 							any improvements or enhancements you might have in
 							mind. Collaborating with others is a great way to
 							learn and grow, and I'm always open to new ideas and

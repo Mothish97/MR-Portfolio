@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Hey, I'm Mothish Raj V K",
 		description:
-			"Welcome to my profile, I have provided with the works and experience I'm proud of, do check it out and feel free to reach out.",
+			"Welcome to my profile! I've highlighted my most significant works and experiences that I am proud of. Please take a look and feel free to reach out if you have any questions or would like to discuss potential opportunities.",
 	},
 
 	about: {
