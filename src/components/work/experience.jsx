@@ -20,7 +20,7 @@ const Experience = () => {
                     {/* <p class="justifyContent">
 As lead developer, I've spearheaded projects to enhance application performance and functionality, including revamping the local cache system and leveraging API integration and Azure microservices. I managed full stack development for the company website, integrating Stripe API for payments, and seamlessly incorporated Restful APIs. On the backend, I implemented server-side logic and database structures using C#, MVC, SSMS, and Web API for security and performance. I have sucessfully designed and maintaining the AI server for hosting the stable diffusion model, generating photo-realistic images used in the software. I have also improved the performance and the quality of the output by research in photo-realism stable diffusion AI models. </p> */}
                <p className="justifyContent">
-               As the lead developer, I have led initiatives aimed at enhancing application performance and
+               As the software engineer, I have led initiatives aimed at enhancing application performance and
                 functionality. This includes overhauling the local cache system and integrating API solutions
                 with Azure microservices.
                  I oversaw full-stack development of our company website,
