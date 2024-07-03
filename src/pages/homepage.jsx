@@ -17,6 +17,7 @@ import INFO from "../data/user";
 
 import "./styles/homepage.css";
 import Education from "../components/homepage/education";
+import { faFile } from "@fortawesome/free-regular-svg-icons";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -142,6 +143,17 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>
+								<a
+									href="https://drive.google.com/uc?export=download&id=1aJwOmRMveTMSdECT94nNVcx_XEQcDsP-"
+									target="_blank"
+									rel="noreferrer"
+									download="filename"
+								>
+								<FontAwesomeIcon
+									icon={faFile}
 									className="homepage-social-icon"
 								/>
 							</a>
