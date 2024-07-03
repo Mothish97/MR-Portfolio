@@ -25,7 +25,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Software Engineer
 							</div>
-							<div className="work-duration">2023 Jan - Present</div>
+							<div className="work-duration">Jan 2023 - Present</div>
 							
 						</div>
 					</Link>
@@ -54,7 +54,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Software Engineer
 							</div>
-							<div className="work-duration">2019 June - 2021 Aug</div>
+							<div className="work-duration">June 2019 - Aug 2021</div>
 						</div>
 					</Link>
 					<Link to="https://robotics.umd.edu/">
@@ -68,7 +68,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Research Assistant
 							</div>
-							<div className="work-duration">2022 Feb - 2022 Augt</div>
+							<div className="work-duration">Feb 2022 - Aug 2022 </div>
 						</div>
 					</Link>
 					<Link to="https://www.kernsmfg.com/">

@@ -1,4 +1,17 @@
-.carousel-container {
+.page-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .content-wrapper {
+	width: 100%;
+	max-width: 1200px;
+	padding: 20px;
+	box-sizing: border-box;
+  }
+  
+  .carousel-container {
 	position: relative;
 	width: 100%;
 	max-width: 800px; /* Adjust as needed */
@@ -24,23 +37,10 @@
 	opacity: 1;
   }
   
-  .prev,
-  .next {
-	position: absolute;
-	transform: translateY(-50%);
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	border: none;
-	cursor: pointer;
-	font-size: 18px;
-  }
-  
-
-  
   .dots {
 	text-align: center;
-    z-index: 10;
-    margin-top: -13%;
+	z-index: 10;
+	margin-top: -13%;
   }
   
   .dot {
@@ -58,164 +58,158 @@
 	background-color: #717171;
   }
   
-
-.achievement-logo-container {
+  .achievement-logo-container,
+  .about-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
-}
-
-.achievement-logo {
+  }
+  
+  .achievement-logo,
+  .about-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
 	border-radius: 50%;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 	top: 4vh;
-}
-
-.achievement-subtitle {
+  }
+  
+  .achievement-subtitle,
+  .about-title {
 	width: 100% !important;
-}
-
-.achievement-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-top: 120px;
-}
-
-
-.socials-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 80px;
-}
-
-.achievement-socials {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-
-.about-logo-container {
-	display: flex;
-	justify-content: left;
-	padding-top: 25px;
-}
-
-.about-logo {
-	display: flex;
-	position: fixed;
-	border: 1px solid white;
-	border-radius: 50%;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
-}
-
-.about-container {
+  }
+  
+  .achievement-container,
+  .about-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
-}
-
-.about-main {
+  }
+  
+  .about-main {
 	display: flex;
-}
-
-.about-right-side {
+  }
+  
+  .about-right-side {
 	flex-basis: 900px;
-}
-
-.about-title {
-	width: 100% !important;
-}
-
-.about-subtitle {
+  }
+  
+  .about-subtitle {
 	width: 80% !important;
-}
-
-.about-left-side {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 443px;
-    width: 100%;
-    margin-top: 1%;
-}
-
-.about-image-container {
+  }
+  
+  .about-left-side {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 443px;
+	width: 100%;
+	margin-top: 1%;
+  }
+  
+  .about-image-container {
 	width: 370px;
-}
-
-.about-image-wrapper {
+  }
+  
+  .about-image-wrapper {
 	display: inline-block;
 	overflow: hidden;
 	width: 100%;
 	border-radius: 10%;
 	transform: rotate(3deg);
-}
-
-.about-image-wrapper img {
+  }
+  
+  .about-image-wrapper img {
 	display: block;
 	width: 100%;
-}
-
-.about-socials {
+  }
+  
+  .about-socials {
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
-
-.about-socials-mobile {
+  }
+  
+  .about-socials-mobile {
 	display: none;
-}
-
-
-@media (max-width: 1024px) {
+  }
+  
+  .socials-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+  }
+  
+  .achievement-socials {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  }
+  
+  .page-footer {
+	width: 100%;
+	margin-top: 20px;
+  }
+  
+  /* Tablet Responsive Styles */
+  @media (max-width: 1024px) {
 	.about-logo {
-		z-index: 100;
+	  z-index: 100;
 	}
-
+  
 	.about-main {
-		flex-direction: column;
+	  flex-direction: column;
 	}
-
+  
 	.about-subtitle {
-		padding-top: 20px !important;
+	  padding-top: 20px !important;
 	}
-
+  
 	.about-left-side {
-		flex-basis: 100%;
-		order: 1;
+	  flex-basis: 100%;
+	  order: 1;
 	}
-
+  
 	.about-right-side {
-		flex-basis: 100%;
-		order: 2;
+	  flex-basis: 100%;
+	  order: 2;
 	}
-
+  
 	.about-image-container {
-		padding-bottom: 40px;
+	  padding-bottom: 40px;
 	}
-
+  
 	.about-socials {
-		display: none;
+	  display: none;
 	}
-
+  
 	.about-socials-mobile {
-		padding-top: 30px;
-		display: flex;
+	  padding-top: 30px;
+	  display: flex;
 	}
-}
-
-@media (max-width: 600px) {
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 600px) {
 	.about-container {
-		padding-top: 60px;
+	  padding-top: 60px;
 	}
-
+  
 	.about-image-container {
-		width: 80%;
+	  width: 80%;
 	}
-}
+  
+	.about-main {
+	  padding: 10px;
+	}
+  
+	.slide {
+	  height: 150px; /* Adjust height for smaller screens */
+	}
+  
+	.dots {
+	  margin-top: 10px;
+	}
+  }
+  

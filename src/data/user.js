@@ -17,14 +17,14 @@ const INFO = {
 
 	homepage: {
 		title: "Hey, I'm Mothish Raj V K",
-		description:
-			"Welcome to my profile! I've highlighted my most significant works and experiences that I am proud of. Please take a look and feel free to reach out if you have any questions or would like to discuss potential opportunities.",
+		description:"Welcome to my portfolio! Here, I showcase my proudest achievements and experiences. Feel free to browse through and reach out for any questions or potential opportunities you’d like to discuss."
+			//"Welcome to my profile! I've highlighted my most significant works and experiences that I am proud of. Please take a look and feel free to reach out if you have any questions or would like to discuss potential opportunities.",
 	},
 
 	about: {
 		title: "Full-stack developer, Software engineer, Robotics & AI engineer and Fitness enthusiast ",
-		description:
-			" I am a software engineer who has worked on various frameworks including robotics and artificial intelligence. I would consider myself versatile and adaptive to any projects or tasks that has been given to me and have perfomed with my best knowledge.",
+		description:"I am a versatile developer with experience across various frameworks, robotics and artificial intelligence. I thrive on adapting to diverse projects and tasks, consistently performing to the best of my abilities."
+			//" I am a software engineer who has worked on various frameworks including robotics and artificial intelligence. I would consider myself versatile and adaptive to any projects or tasks that has been given to me and have perfomed with my best knowledge.",
 	},
 
 	projects: [

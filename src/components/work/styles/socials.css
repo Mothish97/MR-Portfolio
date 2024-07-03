@@ -1,4 +1,5 @@
 @import "../../../data/styles.css";
+
 .social,
 .email-wrapper {
 	display: flex;
@@ -28,14 +29,17 @@
 	display: block;
 	border-top: 3px solid #f4f4f5;
 }
-.justifyContent{
-	text-align:justify;
+
+.justifyContent {
+	text-align: justify;
 }
+
 .company-container {
 	font-family: Arial, sans-serif;
 	margin-top: 5%;
 	padding: 0;
 }
+
 .company-inner {
 	max-width: 100%;
 	background-color: #fff;
@@ -45,24 +49,69 @@
 	display: flex;
 	align-items: center;
 }
+
 .company-logo {
 	width: 100px;
 	height: auto;
 	margin-right: 20px;
 }
+
 .company-details {
 	flex: 1;
 }
+
 .company-name {
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
+
 .company-dates {
 	font-size: 16px;
 	color: #666;
 	margin-bottom: 10px;
 }
+
 .company-additional {
 	font-size: 16px;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+	.social,
+	.email-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.social-text {
+		padding-left: 0;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.company-inner {
+		flex-direction: column;
+		align-items: flex-start;
+		text-align: left;
+		padding: 10px;
+	}
+
+	.company-logo {
+		width: 80px;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.company-name {
+		font-size: 20px;
+	}
+
+	.company-dates {
+		font-size: 14px;
+	}
+
+	.company-additional {
+		font-size: 14px;
+	}
 }

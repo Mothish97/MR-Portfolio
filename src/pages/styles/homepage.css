@@ -1,154 +1,148 @@
 @import "../../data/styles.css";
 
 .homepage-logo-container {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding-top: 130px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 130px;
 }
 
 .homepage-container {
-	padding-top: 25px;
+  padding-top: 25px;
 }
 
 .homepage-first-area {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .flexWorkAndEducation {
-	display: flex;
-	justify-content: space-between;
-	margin-top:5%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
 }
+
 .homepage-first-area-left-side {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%; /* Adjusted width for better responsiveness */
 }
 
 .homepage-title {
-	width: 85% !important;
+  width: 85% !important; /* Retained width for larger screens */
 }
 
 .homepage-subtitle {
-	width: 85% !important;
+  width: 85% !important; /* Retained width for larger screens */
 }
 
 .homepage-first-area-right-side {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
+  width: 50%; /* Adjusted width for better responsiveness */
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+  width: 370px; /* Fixed width for image container */
+  height: 370px;
+  padding-top: 20px; /* Added padding for spacing */
 }
 
 .homepage-image-wrapper {
-	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
+  overflow: hidden;
+  border-radius: 10%;
+  transform: rotate(3deg);
 }
 
 .homepage-image-wrapper img {
-	width: 100%;
+  width: 100%;
 }
 
 .homepage-socials {
-	display: flex;
-	justify-content: right;
-	align-items: center;
-	padding-top: 30px;
+  display: flex;
+  justify-content: flex-end; /* Adjusted alignment for social icons */
+  align-items: center;
+  padding-top: 30px;
 }
 
 .homepage-social-icon {
-	padding-right: 20px;
-	font-size: 25px;
-	transition: color 0.2s ease-in-out;
-	color: var(--secondary-color);
+  padding-right: 20px;
+  font-size: 25px;
+  transition: color 0.2s ease-in-out;
+  color: var(--secondary-color);
 }
 
 .homepage-social-icon:hover {
-	color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .homepage-after-title {
-	display: flex;
+  display: flex;
 }
 
 .homepage-projects {
-	flex-basis: 300px;
-	padding-top: 40px;
+  flex-basis: 300px; /* Fixed width for projects section */
+  padding-top: 40px;
 }
 
 .homepage-articles {
-	flex-basis: 900px;
-	padding-top: 30px;
-	margin-left: -30px;
+  flex-basis: 900px; /* Fixed width for articles section */
+  padding-top: 30px;
+  margin-left: -30px;
 }
 
 .homepage-article {
-	padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
+  flex-basis: 600px; /* Fixed width for works section */
+  padding-top: 30px;
 }
 
 @media (max-width: 1024px) {
-	.homepage-first-area {
-		flex-direction: column;
-	}
+  .homepage-first-area {
+    flex-direction: column;
+  }
 
-	.homepage-first-area-left-side {
-		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
-		align-items: flex-start;
-		width: 100%;
-		order: 2;
-	}
+  .homepage-first-area-left-side {
+    width: 100%; /* Full width for left side on smaller screens */
+    order: 2;
+    margin-bottom: 20px; /* Added margin for spacing */
+  }
 
-	.homepage-title {
-		width: 100% !important;
-		margin-top: 20px;
-		order: 2;
-	}
+  .homepage-title {
+    width: 100% !important; /* Full width for title */
+    margin-top: 20px;
+    order: 2;
+  }
 
-	.homepage-subtitle {
-		width: 100% !important;
-		margin-top: 10px;
-		order: 3;
-	}
+  .homepage-subtitle {
+    width: 100% !important; /* Full width for subtitle */
+    margin-top: 10px;
+    order: 3;
+  }
 
-	.homepage-first-area-right-side {
-		width: 100%;
-		order: 1;
-	}
+  .homepage-first-area-right-side {
+    width: 100%; /* Full width for right side on smaller screens */
+    order: 1;
+  }
 
-	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		margin-left: 10px;
-		order: 1;
-	}
+  .homepage-image-container {
+    width: 100%; /* Full width for image container */
+    max-width: none; /* No maximum width */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 0; /* No left margin */
+    order: 1;
+  }
 
-	.homepage-after-title {
-		flex-direction: column;
-	}
-
-	.homepage-projects {
-		flex-basis: auto;
-	}
-
-	.homepage-articles {
-		flex-basis: auto;
-	}
-
-	.homepage-works {
-		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
-	}
+  .homepage-projects,
+  .homepage-articles,
+  .homepage-works {
+    flex-basis: auto; /* Allow sections to occupy full available width */
+    margin-left: 0; /* No left margin */
+  }
 }

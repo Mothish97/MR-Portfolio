@@ -22,10 +22,22 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+	const [isMobileView, setIsMobileView] = useState(false);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobileView(window.innerWidth <= 1024); // Adjust breakpoint as needed
+        };
+
+        handleResize(); // Initial check on component mount
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -47,6 +59,7 @@ const Homepage = () => {
 			}
 		};
 
+		
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
@@ -133,12 +146,32 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
-						<div class="flexWorkAndEducation">
-								<Education />
-								<Works />
+						{/* <div class="flexWorkAndEducation">
+					
+							<Education />
+							<Works />
 								
 						</div>
-						
+						 */}
+
+						{isMobileView ? (
+                        <div className="flexWorkAndEducation">
+							<div className="row">
+                            <div className="col">
+                                <Education />
+                            </div>
+                            <div class="col">
+                                <Works />
+                            </div>
+							</div>
+                        </div>
+                    ) : (
+                        // Render separately for non-mobile view
+                        <div className="flexWorkAndEducation">
+                            <Education />
+                            <Works />
+							</div>
+                    )}
 {/* 
 						<div className="homepage-projects">
 							<AllProjects />

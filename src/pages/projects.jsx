@@ -30,7 +30,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
+							{/* I've worked on a variety of projects over the years
 							and I'm proud of the progress I've made. Many of
 							these projects are open-source and available for
 							others to explore and contribute to. If you're
@@ -39,7 +39,13 @@ const Projects = () => {
 							any improvements or enhancements you might have in
 							mind. Collaborating with others is a great way to
 							learn and grow, and I'm always open to new ideas and
-							feedback.
+							feedback. */}
+							I have worked on a diverse array of projects over the years and take pride in the progress
+							achieved. Several of these projects are open-source, offering opportunities for exploration
+							and contribution from others. If you are interested in any of these projects, please feel free to
+							access the code on my Git and suggest any improvements or enhancements you may have in mind. 
+							Collaborating with others is a valuable way to learn and evolve, and I welcome new
+							ideas and feedback.
 						</div>
 
 						<div className="projects-list">
