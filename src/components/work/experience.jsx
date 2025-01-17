@@ -20,16 +20,7 @@ const Experience = () => {
                     {/* <p class="justifyContent">
 As lead developer, I've spearheaded projects to enhance application performance and functionality, including revamping the local cache system and leveraging API integration and Azure microservices. I managed full stack development for the company website, integrating Stripe API for payments, and seamlessly incorporated Restful APIs. On the backend, I implemented server-side logic and database structures using C#, MVC, SSMS, and Web API for security and performance. I have sucessfully designed and maintaining the AI server for hosting the stable diffusion model, generating photo-realistic images used in the software. I have also improved the performance and the quality of the output by research in photo-realism stable diffusion AI models. </p> */}
                <p className="justifyContent">
-               As the software engineer, I have led initiatives aimed at enhancing application performance and
-                functionality. This includes overhauling the local cache system and integrating API solutions
-                with Azure microservices.
-                 I oversaw full-stack development of our company website,
-                integrating Restful APIs for smooth communication to the server-side and Stripe API for seamless payments. On the
-                backend, I implemented robust server-side logic and database structures using C#, MVC,
-                SSMS, and Web API to ensure security and optimize performance.
-               Additionally, I have designed and maintain the AI server hosting our stable diffusion model,
-                which generates photo-realistic images integral to our software. My research in photo-realism
-                stable diffusion AI models has significantly improved both performance and output quality.
+               In my role as a software engineer, I have developed applications that integrate linear algebra and scientific principles to optimize garment placement and generation. By redesigning the application's source code with object-oriented programming concepts and adhering to best coding practices, I enhanced its performance and maintainability. Additionally, I worked with LIDAR and camera systems for avatar generation, utilizing OpenCV for fabric color correction. My experience also includes employing machine learning techniques, such as K-means clustering, for image segregation and developing AI-driven image generation for garments. These efforts align with recent advancements in garment digitization and virtual try-on systems, as discussed in the paper "Robust 3D Garment Digitization from Monocular 2D Images for 3D Virtual Try-On Systems
                </p>
                 </div>
             </div>
