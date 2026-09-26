@@ -5,30 +5,54 @@ import "./styles/socials.css";
 const Experience = () => {
 	return (
 		<div className="experince">
+			<div className="company-container">
+				<div className="company-inner">
+					<img
+						src={process.env.PUBLIC_URL + "/oracle.svg"}
+						alt="Oracle Logo"
+						className="company-logo"
+					/>
+					<div className="company-details">
+						<div className="company-name">Oracle</div>
+						<div className="company-dates">December 2025 - Present</div>
+						<div className="company-additional">
+							<p><b>Senior Software Developer / Engineer</b></p>
+							<p>Oracle is a global leader in cloud technology, enterprise software, and mission-critical cloud infrastructure.</p>
+							<p className="justifyContent">
+								At Oracle, I focus on AI tool development, agentic workflows, and high-scale cloud infrastructure. I ported the Model Context Protocol (MCP) for the Legacy organization and integrated it with an AI agent to seamlessly bridge legacy enterprise systems. To enhance internal development capabilities and operational efficiency, I develop custom AI tools and spearhead AI integration across the team through training and establishing standards for AI-driven development. Additionally, I manage DevOps and development for a high-throughput service handling over 1 trillion calls, utilizing AI tools to proactively address and mitigate security risks, while creating automation pipelines for time-consuming tasks to streamline repetitive manual processes and increase team productivity.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-<div class="company-container">
-        <div className="company-inner">
-            <img src="https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9" alt="Company Logo" class="company-logo"/>
-            <div className="company-details">
-                <div className="company-name">Clothing Tech LLC</div>
-                <div className="company-dates">January 2023 - Present</div>
-                <div className="company-additional">
-                    <p><b>Software Engineer</b></p>
-					{/* <p>Clothing Tech is a revolutionary 3D Clothing design software used to design clothing in fashion industry.</p> */}
-                    <p>Clothing Tech is a revolutionary 3D clothing design software utilized within the fashion
-                    industry for creating innovative garment designs.</p>
-                    {/* <p class="justifyContent">
+			<div className="company-container">
+				<div className="company-inner">
+					<img
+						src={process.env.PUBLIC_URL + "/CT.png"}
+						alt="Company Logo"
+						className="company-logo"
+					/>
+					<div className="company-details">
+						<div className="company-name">Clothing Tech LLC</div>
+						<div className="company-dates">January 2023 - November 2025</div>
+						<div className="company-additional">
+							<p><b>Software Engineer 2</b></p>
+							{/* <p>Clothing Tech is a revolutionary 3D Clothing design software used to design clothing in fashion industry.</p> */}
+							<p>Clothing Tech is a revolutionary 3D clothing design software utilized within the fashion
+							industry for creating innovative garment designs.</p>
+							{/* <p class="justifyContent">
 As lead developer, I've spearheaded projects to enhance application performance and functionality, including revamping the local cache system and leveraging API integration and Azure microservices. I managed full stack development for the company website, integrating Stripe API for payments, and seamlessly incorporated Restful APIs. On the backend, I implemented server-side logic and database structures using C#, MVC, SSMS, and Web API for security and performance. I have sucessfully designed and maintaining the AI server for hosting the stable diffusion model, generating photo-realistic images used in the software. I have also improved the performance and the quality of the output by research in photo-realism stable diffusion AI models. </p> */}
-               <p className="justifyContent">
-               In my role as a software engineer, I have developed applications that integrate linear algebra and scientific principles to optimize garment placement and generation. By redesigning the application's source code with object-oriented programming concepts and adhering to best coding practices, I enhanced its performance and maintainability. Additionally, I worked with LIDAR and camera systems for avatar generation, utilizing OpenCV for fabric color correction. My experience also includes employing machine learning techniques, such as K-means clustering, for image segregation and developing AI-driven image generation for garments. These efforts align with recent advancements in garment digitization and virtual try-on systems, as discussed in the paper "Robust 3D Garment Digitization from Monocular 2D Images for 3D Virtual Try-On Systems
-               </p>
-                </div>
-            </div>
-        </div>
-    </div>
+							<p className="justifyContent">
+							In my role as a software engineer, I have developed applications that integrate linear algebra and scientific principles to optimize garment placement and generation. By redesigning the application's source code with object-oriented programming concepts and adhering to best coding practices, I enhanced its performance and maintainability. Additionally, I worked with LIDAR and camera systems for avatar generation, utilizing OpenCV for fabric color correction. My experience also includes employing machine learning techniques, such as K-means clustering, for image segregation and developing AI-driven image generation for garments. These efforts align with recent advancements in garment digitization and virtual try-on systems, as discussed in the paper "Robust 3D Garment Digitization from Monocular 2D Images for 3D Virtual Try-On Systems
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 	<div className="company-container">
         <div className="company-inner">
-            <img src="https://drive.google.com/thumbnail?id=1SiCISFEV7cYwMCGqMTV8kRP9ed1_dYJO" alt="Company Logo" class="company-logo"/>
+            <img src={process.env.PUBLIC_URL + "/kick.jpg"} alt="Company Logo" className="company-logo"/>
             <div className="company-details">
                 <div className="company-name">Kick Robotics</div>
                 <div className="company-dates">June 2022 - December 2022</div>
@@ -44,7 +68,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
 
 	<div className="company-container">
         <div className="company-inner">
-            <img src="https://drive.google.com/thumbnail?id=1_yoR8N573sJGyrQFVnK5SqUSCE6HcaTz" alt="Company Logo" class="company-logo"/>
+            <img src={process.env.PUBLIC_URL + "/wipro.png"} alt="Company Logo" className="company-logo"/>
             <div className="company-details">
                 <div className="company-name">Wipro Technologies</div>
                 <div className="company-dates">June 2019 - August 2021</div>
@@ -62,7 +86,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
     </div>
     <div className="company-container">
         <div className="company-inner">
-            <img src="https://drive.google.com/thumbnail?id=1XvMBc5D7H1r6PWJcWpYedncA8znuqFZU" alt="Company Logo" class="company-logo"/>
+            <img src={process.env.PUBLIC_URL + "/UMD.jpg"} alt="Company Logo" className="company-logo"/>
             <div className="company-details">
                 <div className="company-name">University of Maryland</div>
                 <div className="company-dates">June 2018 - July 2018</div>
@@ -77,7 +101,7 @@ As lead developer, I've spearheaded projects to enhance application performance 
     </div>
     <div className="company-container">
         <div className="company-inner">
-            <img src="https://drive.google.com/thumbnail?id=1oKx8bhK4WK89-_0coc9rjDUcfBQnWnJC" alt="Company Logo" class="company-logo"/>
+            <img src={process.env.PUBLIC_URL + "/kerns.png"} alt="Company Logo" className="company-logo"/>
             <div className="company-details">
                 <div className="company-name">Kerns Aero Products</div>
                 <div className="company-dates">June 2018 - July 2018</div>

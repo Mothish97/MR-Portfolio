@@ -105,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://drive.google.com/thumbnail?id=1NPyX0WJnAiTQQMHBPdSREtf-MiKEGZ5g"
+											src={process.env.PUBLIC_URL + "/homepage.jpg"}
 											alt="homepage.jpg"
 											className="homepage-image"
 										/>

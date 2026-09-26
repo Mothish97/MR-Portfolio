@@ -40,7 +40,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://drive.google.com/thumbnail?id=1s2TaGx_p6xmRes1Gp_v4q4AcU26UsS8J"
+											src={process.env.PUBLIC_URL + "/about.jpg"}
 											alt="about.jpg"
 											className="about-image"
 										/>

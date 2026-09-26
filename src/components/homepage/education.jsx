@@ -17,7 +17,7 @@ const Education = () => {
 						<Link to="https://drive.google.com/file/d/1zrUy0V3ZkJqo0CfXiqjkswiJI2bnP5Gk/view">
 						<div className="education">
 							<img
-								src="https://drive.google.com/thumbnail?id=1XvMBc5D7H1r6PWJcWpYedncA8znuqFZU"
+								src={process.env.PUBLIC_URL + "/UMD.jpg"}
 								alt="UMD "
 								className="education-image"
 							/>
@@ -31,7 +31,7 @@ const Education = () => {
 						<Link to="https://drive.google.com/file/d/1A6owMGUDmmHdQkWbwK-7yIb9G5qNivJC/view">
 						<div className="education">
 							<img
-								src="https://drive.google.com/thumbnail?id=1m_jggNGGbTsRwplWcDVW0aRU7R4EMoaY"
+								src={process.env.PUBLIC_URL + "/VIT.png"}
 								alt="VIT"
 								className="education-image"
 							/>

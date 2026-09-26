@@ -13,26 +13,41 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
+					<Link to="https://www.oracle.com/">
+						<div className="work">
+							<img
+								src={process.env.PUBLIC_URL + "/oracle.svg"}
+								alt="Oracle"
+								className="work-image"
+							/>
+
+							<div className="work-title">Oracle</div>
+							<div className="work-subtitle">
+								Senior Software Developer
+							</div>
+							<div className="work-duration">Dec 2025 - Present</div>
+						</div>
+					</Link>
 					<Link to="https://www.clothingtech.com/">
 						<div className="work">
 							<img
-								src="https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9"
+								src={process.env.PUBLIC_URL + "/CT.png"}
 								alt="CT"
 								className="work-image"
 							/>
 
 							<div className="work-title">Clothing Tech LLC</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Software Engineer 2
 							</div>
-							<div className="work-duration">Jan 2023 - Present</div>
+							<div className="work-duration">Jan 2023 - Nov 2025</div>
 							
 						</div>
 					</Link>
 					<Link to="https://kickrobotics.com/">
 						<div className="work">
 							<img
-								src="https://drive.google.com/thumbnail?id=1SiCISFEV7cYwMCGqMTV8kRP9ed1_dYJO"
+								src={process.env.PUBLIC_URL + "/kick.jpg"}
 								alt="kick"
 								className="work-image"
 							/>
@@ -46,7 +61,7 @@ const Works = () => {
 					<Link to="https://www.wipro.com/">
 						<div className="work">
 							<img
-								src="https://drive.google.com/thumbnail?id=1_yoR8N573sJGyrQFVnK5SqUSCE6HcaTz"
+								src={process.env.PUBLIC_URL + "/wipro.png"}
 								alt="wipro"
 								className="work-image"
 							/>
@@ -60,7 +75,7 @@ const Works = () => {
 					<Link to="https://robotics.umd.edu/">
 						<div className="work">
 							<img
-								src="https://drive.google.com/thumbnail?id=1XvMBc5D7H1r6PWJcWpYedncA8znuqFZU"
+								src={process.env.PUBLIC_URL + "/UMD.jpg"}
 								alt="UMD"
 								className="work-image"
 							/>
@@ -74,7 +89,7 @@ const Works = () => {
 					<Link to="https://www.kernsmfg.com/">
 						<div className="work">
 							<img
-								src="https://drive.google.com/thumbnail?id=1oKx8bhK4WK89-_0coc9rjDUcfBQnWnJC"
+								src={process.env.PUBLIC_URL + "/kerns.png"}
 								alt="kerns"
 								className="work-image"
 							/>
