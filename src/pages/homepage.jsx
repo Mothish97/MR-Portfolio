@@ -147,10 +147,10 @@ const Homepage = () => {
 								/>
 							</a>
 								<a
-									href="https://drive.google.com/uc?export=download&id=1aJwOmRMveTMSdECT94nNVcx_XEQcDsP-"
+									href="https://drive.google.com/uc?export=download&id=17b3th1zFdxygkLKKXZwccMeuBMclY8L-"
 									target="_blank"
 									rel="noreferrer"
-									download="filename"
+									download="Mothish_Raj_VK_Resume.pdf"
 								>
 								<FontAwesomeIcon
 									icon={faFile}

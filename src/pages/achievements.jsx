@@ -16,7 +16,7 @@ const images1 = [
 
 const images2 = [
 	process.env.PUBLIC_URL + '/sprnt82-1.png',
-	process.env.PUBLIC_URL + '/sprnt82-2.png',
+	process.env.PUBLIC_URL + '/CT.png',
 ];
 
 const images3 = [
