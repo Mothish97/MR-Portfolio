@@ -3,4 +3,10 @@
 	display: block;
 	margin: 0;
 	padding: 0;
+	transition: filter 0.25s ease;
+}
+
+[data-theme="dark"] .logo,
+.dark-mode .logo {
+	filter: invert(1);
 }

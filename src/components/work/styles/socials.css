@@ -27,7 +27,7 @@
 .email::before {
 	content: "";
 	display: block;
-	border-top: 3px solid #f4f4f5;
+	border-top: 1px solid var(--border-outer);
 }
 
 .justifyContent {
@@ -42,12 +42,14 @@
 
 .company-inner {
 	max-width: 100%;
-	background-color: #fff;
-	border-radius: 5px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: var(--card-bg);
+	border: 1px solid var(--card-outline);
+	border-radius: 8px;
+	box-shadow: var(--card-shadow);
 	padding: 20px;
 	display: flex;
 	align-items: center;
+	transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .company-logo {
@@ -64,16 +66,22 @@
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 10px;
+	color: var(--primary-color);
 }
 
 .company-dates {
 	font-size: 16px;
-	color: #666;
+	color: var(--tertiary-color);
 	margin-bottom: 10px;
 }
 
 .company-additional {
 	font-size: 16px;
+	color: var(--secondary-color);
+}
+
+.company-additional b {
+	color: var(--primary-color);
 }
 
 /* Mobile Styles */

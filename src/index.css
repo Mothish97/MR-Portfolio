@@ -3,9 +3,12 @@
 
 body {
 	margin: 0;
+	background-color: var(--bg-page);
+	color: var(--primary-color);
 	font-family: var(--primary-font);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 code {

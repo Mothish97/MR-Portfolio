@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "../../contexts/ThemeContext";
 
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
+	const { isDark, toggleTheme } = useTheme();
 
 	return (
 		<React.Fragment>
@@ -48,6 +52,17 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/MR-Portfolio/achievements">Achievements</Link>
+							</li>
+
+							<li className="nav-item nav-theme-item">
+								<button
+									className="theme-toggle-btn"
+									onClick={toggleTheme}
+									aria-label="Toggle dark/light mode"
+									title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+								>
+									<FontAwesomeIcon icon={isDark ? faSun : faMoon} />
+								</button>
 							</li>
 						</ul>
 					</div>

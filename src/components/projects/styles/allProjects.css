@@ -1,3 +1,5 @@
+@import "../../../data/styles.css";
+
 .all-projects-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -24,14 +26,16 @@
 
 .project {
 	margin-bottom: 40px;
-	background-color: #fff;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: var(--card-bg);
+	border: 1px solid var(--card-outline);
+	border-radius: 8px;
+	box-shadow: var(--card-shadow);
 	overflow: hidden;
 	display: flex;
 	flex-direction: row;
 	margin-left: -2%;
 	margin-top: 3%;
+	transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .project-video {
@@ -45,10 +49,12 @@
 
 .project-info h2 {
 	margin-top: 0;
+	color: var(--primary-color);
 }
 
 .project-info p {
 	margin-bottom: 0;
+	color: var(--secondary-color);
 }
 
 .project-video iframe {
