@@ -10,35 +10,39 @@ const images = [
 ];
 
 const images1 = [
-	'https://drive.google.com/thumbnail?id=11kg6z14Z0VeReL8XS44VTN6Ce6xvhnya',
-	'https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9',
-  ];
+	process.env.PUBLIC_URL + '/sprint83-2.png',
+	process.env.PUBLIC_URL + '/CT.png',
+];
 
 const images2 = [
-	'https://drive.google.com/thumbnail?id=11kg6z14Z0VeReL8XS44VTN6Ce6xvhnya',
-	'https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9',
-  ];
+	process.env.PUBLIC_URL + '/sprnt82-1.png',
+	process.env.PUBLIC_URL + '/sprnt82-2.png',
+];
 
 const images3 = [
-'https://drive.google.com/thumbnail?id=1CTYlBGWmSCA2Tuj5FvQn6vGrz9uL-A2F',
-'https://drive.google.com/thumbnail?id=1JfeQwZj0dymn2nrLsyzNB2uXPl1Cb1z9',
+	process.env.PUBLIC_URL + '/sprnt80-1.png',
+	process.env.PUBLIC_URL + '/CT.png',
 ];
+
 const images4 = [
-'https://drive.google.com/thumbnail?id=1RaQrMf2Fvbh0EMpLLdXTnWles5UbjNKB',
-'https://drive.google.com/thumbnail?id=1aRT__OMcVSEOpDfVRskIM3X1XmKCZ72Q',
+	process.env.PUBLIC_URL + '/sprnt77-1.jpg',
+	process.env.PUBLIC_URL + '/sprnt77-2.jpg',
 ];
+
 const images5 = [
-	'https://drive.google.com/thumbnail?id=1AEgQ01Dk1F9WAXJwZy45iVf1cbOhjtdL',
-	'https://drive.google.com/thumbnail?id=156XWnBE6kEFqOtUhnaUeiWNROe5fCavg',
-	];
+	process.env.PUBLIC_URL + '/haptap.png',
+	process.env.PUBLIC_URL + '/vitlogo.png',
+];
+
 const images6 = [
-	'https://drive.google.com/thumbnail?id=1xFeL6EGOxHDPqyfUhlNnGZjAF457Sp1p',
-	'https://drive.google.com/thumbnail?id=1tWZAqlrV4iSKoPZIP1nGpjZhzsgsy9G5',
-	];
+	process.env.PUBLIC_URL + '/moto.png',
+	process.env.PUBLIC_URL + '/moto2.png',
+];
+
 const images7 = [
-	'kick.jpg',
-	'kerns.png',
-	];
+	process.env.PUBLIC_URL + '/kick.jpg',
+	process.env.PUBLIC_URL + '/kerns.png',
+];
 
 
 const Achievements = () => {
