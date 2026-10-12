@@ -10,7 +10,8 @@ import {
 import "./styles/chatWidget.css";
 
 const API_BASE_URL =
-	process.env.REACT_APP_AGENT_API_URL || "http://localhost:8000/api/chat";
+	process.env.REACT_APP_AGENT_API_URL ||
+	"https://mr-portfolio-agent-backend.onrender.com/api/chat";
 
 const SUGGESTED_PROMPTS = [
 	"What is Mothish's current role at Oracle?",
