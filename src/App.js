@@ -3,7 +3,7 @@ import Homepage from "./pages/homepage";
 import About from "./pages/work";
 import Projects from "./pages/projects";
 import Achievements from "./pages/achievements";
-import Notfound from "./pages/404";
+import ChatWidget from "./components/chat/ChatWidget";
 
 import { ThemeProvider } from "./contexts/ThemeContext";
 
@@ -20,6 +20,7 @@ function App() {
 					<Route path="/MR-Portfolio/achievements" element={<Achievements />} />
 					<Route path="*" element={<Homepage />} />
 				</Routes>
+				<ChatWidget />
 			</div>
 		</ThemeProvider>
 	);
