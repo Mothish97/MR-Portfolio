@@ -97,7 +97,7 @@ const Works = () => {
 							<div className="work-subtitle">
 							Production Cycle Manager
 							</div>
-							<div className="work-duration">2018 June - 2019 July</div>
+							<div className="work-duration">June 2018 - July 2019</div>
 						</div>
 					</Link>
 					</div>
