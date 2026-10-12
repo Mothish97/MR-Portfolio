@@ -8,39 +8,39 @@ import "./styles/education.css";
 
 const Education = () => {
 	return (
-		<div className="education">
+		<div className="educations">
 			<Card
 				icon={faBriefcase}
 				title="Education"
 				body={
 					<div className="education-body">
 						<Link to="https://drive.google.com/file/d/1zrUy0V3ZkJqo0CfXiqjkswiJI2bnP5Gk/view">
-						<div className="education">
-							<img
-								src={process.env.PUBLIC_URL + "/UMD.jpg"}
-								alt="UMD "
-								className="education-image"
-							/>
-							<div className="education-title">University of Maryland College Park</div>
-							<div className="education-subtitle">
-								Master's Robotics Engineering
+							<div className="education-item">
+								<img
+									src={process.env.PUBLIC_URL + "/UMD.jpg"}
+									alt="UMD"
+									className="education-image"
+								/>
+								<div className="education-title">University of Maryland College Park</div>
+								<div className="education-subtitle">
+									Master's Robotics Engineering
+								</div>
+								<div className="education-duration"> 2021 -  2023</div>
 							</div>
-							<div className="education-duration"> 2021 -  2023</div>
-						</div>
 						</Link>
 						<Link to="https://drive.google.com/file/d/1A6owMGUDmmHdQkWbwK-7yIb9G5qNivJC/view">
-						<div className="education">
-							<img
-								src={process.env.PUBLIC_URL + "/VIT.png"}
-								alt="VIT"
-								className="education-image"
-							/>
-							<div className="education-title">Vellore Institute of Technology</div>
-							<div className="education-subtitle">
-								Bachelor's Mechanical Engineering
+							<div className="education-item">
+								<img
+									src={process.env.PUBLIC_URL + "/VIT.png"}
+									alt="VIT"
+									className="education-image"
+								/>
+								<div className="education-title">Vellore Institute of Technology</div>
+								<div className="education-subtitle">
+									Bachelor's Mechanical Engineering
+								</div>
+								<div className="education-duration"> 2015 - 2019</div>
 							</div>
-							<div className="education-duration"> 2015 - 2019</div>
-						</div>
 						</Link>
 
 					</div>

@@ -11,7 +11,6 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 
@@ -23,22 +22,9 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
-	const [isMobileView, setIsMobileView] = useState(false);
-
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobileView(window.innerWidth <= 1024); // Adjust breakpoint as needed
-        };
-
-        handleResize(); // Initial check on component mount
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -165,25 +151,14 @@ const Homepage = () => {
 								
 						</div>
 						 */}
-
-						{isMobileView ? (
-                        <div className="flexWorkAndEducation">
-							<div className="row">
-                            <div className="col">
-                                <Education />
-                            </div>
-                            <div class="col">
-                                <Works />
-                            </div>
+						<div className="flexWorkAndEducation">
+							<div className="education-section">
+								<Education />
 							</div>
-                        </div>
-                    ) : (
-                        // Render separately for non-mobile view
-                        <div className="flexWorkAndEducation">
-                            <Education />
-                            <Works />
+							<div className="works-section">
+								<Works />
 							</div>
-                    )}
+						</div>
 {/* 
 						<div className="homepage-projects">
 							<AllProjects />

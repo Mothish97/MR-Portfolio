@@ -7,11 +7,14 @@
 	background-color: var(--card-bg);
 	box-shadow: var(--card-shadow);
 	transition: background-color 0.25s ease, outline-color 0.25s ease, box-shadow 0.25s ease;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 .card-container {
-	padding: 30px;
-	padding-bottom: 5px;
+	padding: 28px 24px 10px 24px;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 .card-header {
@@ -27,50 +30,28 @@
 .card-title {
 	color: var(--primary-color);
 	font-size: 14px;
-	padding-left: 20px;
+	padding-left: 16px;
 	font-weight: 650;
 }
 
 .card-body {
-	padding-top: 40px;
+	padding-top: 28px;
 	font-size: 15px;
+	width: 100%;
+	box-sizing: border-box;
 }
-
-
 
 /* Mobile Styles */
 @media (max-width: 600px) {
-
 	.card {
-		mix-blend-mode: normal;
-		border-radius: 20px;
-		outline: 2px solid var(--card-outline);
+		border-radius: 16px;
 	}
-	
+
 	.card-container {
-		padding: 0px;
-		padding-bottom: 0px;
+		padding: 20px 16px 8px 16px;
 	}
-	
-	.card-header {
-		display: flex;
-		align-items: center;
-	}
-	
-	.card-icon {
-		font-size: 15px;
-		color: var(--tertiary-color);
-	}
-	
-	.card-title {
-		color: var(--secondary-color);
-		font-size: 14px;
-		padding-left: 20px;
-		font-weight: 650;
-	}
-	
+
 	.card-body {
-		padding-top: 40px;
-		font-size: 15px;
+		padding-top: 22px;
 	}
 }

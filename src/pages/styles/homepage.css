@@ -20,7 +20,18 @@
 .flexWorkAndEducation {
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  gap: 32px;
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.education-section,
+.works-section {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .homepage-first-area-left-side {
@@ -108,41 +119,81 @@
   }
 
   .homepage-first-area-left-side {
-    width: 100%; /* Full width for left side on smaller screens */
+    width: 100%;
     order: 2;
-    margin-bottom: 20px; /* Added margin for spacing */
+    margin-bottom: 20px;
   }
 
   .homepage-title {
-    width: 100% !important; /* Full width for title */
-    margin-top: 20px;
+    width: 100% !important;
+    margin-top: 15px;
     order: 2;
   }
 
   .homepage-subtitle {
-    width: 100% !important; /* Full width for subtitle */
+    width: 100% !important;
     margin-top: 10px;
     order: 3;
   }
 
   .homepage-first-area-right-side {
-    width: 100%; /* Full width for right side on smaller screens */
+    width: 100%;
+    display: flex;
+    justify-content: center;
     order: 1;
   }
 
   .homepage-image-container {
-    width: 100%; /* Full width for image container */
-    max-width: none; /* No maximum width */
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 0; /* No left margin */
+    width: 280px;
+    height: 280px;
+    max-width: 80vw;
+    margin: 10px auto 25px auto;
+    padding: 0;
     order: 1;
+  }
+
+  .homepage-socials {
+    justify-content: flex-start;
+    padding-top: 15px;
+  }
+
+  .flexWorkAndEducation {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
   }
 
   .homepage-projects,
   .homepage-articles,
   .homepage-works {
-    flex-basis: auto; /* Allow sections to occupy full available width */
-    margin-left: 0; /* No left margin */
+    flex-basis: auto;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage-logo-container {
+    padding-top: 90px;
+  }
+
+  .homepage-title {
+    font-size: 32px !important;
+    line-height: 1.25 !important;
+  }
+
+  .homepage-subtitle {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+
+  .homepage-image-container {
+    width: 240px;
+    height: 240px;
+    max-width: 75vw;
+  }
+
+  .flexWorkAndEducation {
+    gap: 25px;
+    margin-top: 25px;
   }
 }
